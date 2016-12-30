@@ -14,7 +14,7 @@ function getMojis(m, n) {
 }
 
 function getBean() {
-  return getMojis(10, 8);
+  return getMojis(11, 8);
 }
 
 window.onload = function () {
