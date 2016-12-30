@@ -13,7 +13,22 @@ function getMojis(m, n) {
   return mojes;
 }
 
+function getRotatedMojis(m, n) {
+  var mojes = "";
+  for (var j = 0; j < n; j++) {
+    for (var i = 0; i < m; i++) {
+      mojes += getMoj(i, j);
+    }
+    mojes += "\n";
+  }
+  return mojes;
+}
+
 function getBean() {
+  return getMojis(11, 8);
+}
+
+function getRotatedBean() {
   return getMojis(11, 8);
 }
 
