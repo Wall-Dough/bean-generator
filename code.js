@@ -29,7 +29,7 @@ function getBean() {
 }
 
 function getRotatedBean() {
-  return getMojis(11, 8);
+  return getRotatedMojis(11, 8);
 }
 
 window.onload = function () {
