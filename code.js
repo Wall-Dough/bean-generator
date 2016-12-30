@@ -21,5 +21,7 @@ window.onload = function () {
   var textarea = document.createElement("textarea");
   textarea.readonly = true;
   textarea.innerHTML = getBean();
+  textarea.setAttribute("cols", "50");
+  textarea.setAttribute("rows", "25");
   document.body.appendChild(textarea);
 }
