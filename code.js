@@ -1,0 +1,3 @@
+function getMoj(i, j) {
+
+}
